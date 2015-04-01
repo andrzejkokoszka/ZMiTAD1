@@ -47,7 +47,7 @@ public class CrossValidation {
               new FileReader("arff/australian.arff"));
 Instances data = new Instances(reader);
 reader.close();
-	 
+	 //blebleble
 	  // setting class attribute if the data format does not provide this information
 	  // For example, the XRFF format saves the class attribute information as well
 	  if (data.classIndex() == -1)
